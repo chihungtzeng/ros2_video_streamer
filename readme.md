@@ -26,5 +26,10 @@ This package is useful for:
 
 Make sure you have the following installed:
 
-- ROS 2 (The package is developed and tested in Humble)
+- ROS 2
 - OpenCV
+
+## Test environment
+
+- Ubuntu 22.04
+- ROS2 Humble
