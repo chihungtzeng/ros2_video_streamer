@@ -63,7 +63,6 @@ void VideoStreamerNode::publish_raw()
     (frame.total() * 3) / 1024);
 
   sensor_msgs::msg::Image::UniquePtr raw_msg{new sensor_msgs::msg::Image};
-  RCLCPP_DEBUG(this->get_logger(), "image ptr: %p", static_cast<void *>(raw_msg.get()));
   raw_msg->height = frame.rows;
   raw_msg->width = frame.cols;
   raw_msg->encoding = "bgr8";
