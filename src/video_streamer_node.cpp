@@ -20,6 +20,7 @@ VideoStreamerNode::VideoStreamerNode(const rclcpp::NodeOptions & node_options)
   video_path_ = declare_parameter<std::string>("video_path", "/tmp/dummy.avi");
   loop_ = declare_parameter<int>("loop", 1);
   int fps = declare_parameter<int>("fps", 20);
+  shit = 1;
 
   RCLCPP_INFO(
     this->get_logger(), "Use video file %s, loop: %d, fps: %d", video_path_.c_str(), loop_, fps);
