@@ -7,7 +7,6 @@
 #include <fstream>
 #include <iostream>
 #include <opencv2/opencv.hpp>
-#include <queue>
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/image.hpp>
 #include <string>
